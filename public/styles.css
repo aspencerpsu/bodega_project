@@ -2,7 +2,7 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-ul {
+nav ul {
   list-style: none;
   margin: 0;
   margin-right: 40px;
@@ -10,7 +10,7 @@ ul {
   text-align: right;
 }
 
-li {
+nav li {
   display: inline-block;
   height: 30px;
   width:80px;
@@ -87,12 +87,14 @@ input{
   display:inline-block;
   position:relative;
   width: 300px;
+  margin-right:5px;
 }
 
 .right{
   display:inline-block;
   position:relative;
   width: 300px;
+  margin-right:5px;
 }
 
 .container{
