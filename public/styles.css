@@ -156,3 +156,7 @@ form{
   left:0;
   opacity: .6
 }
+
+.bold{
+  font-weight: bolder;
+}
