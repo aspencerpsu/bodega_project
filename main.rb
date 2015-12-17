@@ -27,7 +27,8 @@ get '/contact' do
 end
 
 post '/contact' do
-  @username = username
-  @text = text
+  @username = params[:username]
+  @text = params[:text]
+  puts "Params are #{@username}, #{@text}"
   erb :contact
 end
