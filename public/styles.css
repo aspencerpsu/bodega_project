@@ -1,3 +1,7 @@
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+
 ul {
   list-style: none;
   margin: 0;
@@ -21,7 +25,7 @@ li {
   float:left;
 }
 
-a{
+nav a{
   text-decoration: none;
   display: inline:block;
   color:white;
@@ -30,7 +34,7 @@ a{
   padding:25px;
 }
 
-a:hover {
+nav a:hover {
   text-decoration: none;
   display: inline:block;
   color:grey;
@@ -77,12 +81,13 @@ input{
 .left{
   display:inline-block;
   position:relative;
-  width: 40%;
+  width: 300px;
 }
 
 .right{
   display:inline-block;
   position:relative;
+<<<<<<< HEAD
   width: 40%;
 }
 
@@ -92,4 +97,23 @@ input{
   height: 300px;
   padding-left: 30px;
   padding-right: 30px;
+=======
+  width: 300px;
+}
+
+.content a{
+  text-decoration: none;
+  color: black;
+}
+
+input{
+  width: 200px;
+  border-radius: 6px;
+}
+
+textarea{
+  width:200px;
+  height:200px;
+  border-radius: 6px;
+>>>>>>> d9f0e1948c34c65cb69ed820bed750b9b92bfe02
 }
