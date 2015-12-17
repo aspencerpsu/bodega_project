@@ -118,12 +118,12 @@ input{
 }
 
 input{
-  width: 200px;
+  width: 400px;
   border-radius: 6px;
 }
 
 textarea{
-  width:200px;
+  width:400px;
   height:200px;
   border-radius: 6px;
 }
