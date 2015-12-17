@@ -8,7 +8,7 @@ ul {
 
 li {
   display: inline-block;
-  height: 40px;
+  height: 30px;
   width:80px;
   top:30px;
   position: relative;
@@ -16,7 +16,7 @@ li {
 
 .logo{
   color: white;
-  height: 100px;
+  height: 80px;
   margin:0;
   float:left;
 }
@@ -43,7 +43,7 @@ nav{
   left:0;
   width:100%;
   z-index:9999;
-  height:100px;
+  height:80px;
 }
 
 .content {
