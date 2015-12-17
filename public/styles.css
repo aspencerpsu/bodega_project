@@ -94,3 +94,14 @@ input{
   text-decoration: none;
   color: black;
 }
+
+input{
+  width: 200px;
+  border-radius: 6px;
+}
+
+textarea{
+  width:200px;
+  height:200px;
+  border-radius: 6px;
+}
