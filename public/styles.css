@@ -69,3 +69,19 @@ input{
   text-align: center;
   color: white;
 }
+
+.well{
+  width:70%;
+  margin:0 auto;
+}
+.left{
+  display:inline-block;
+  position:relative;
+  width: 40%;
+}
+
+.right{
+  display:inline-block;
+  position:relative;
+  width: 40%;
+}
