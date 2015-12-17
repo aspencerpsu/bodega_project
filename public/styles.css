@@ -122,12 +122,25 @@ input{
 input{
   width: 400px;
   border-radius: 6px;
+  font-size: 20px;
 }
 
 textarea{
   width:400px;
   height:200px;
   border-radius: 6px;
+  text-align: center;
+  font-size: 20px;
+}
+
+form{
+
+  background-image: url('images/formbackground.jpg');
+  background-repeat: no-repeat;
+  background-size: 800px;
+  border-radius: 10px;
+  background-position: center;
+  height:300px;
 }
 
 .outerlightbox{
