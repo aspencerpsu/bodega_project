@@ -85,3 +85,11 @@ input{
   position:relative;
   width: 40%;
 }
+
+.container{
+  margin: 0 auto;
+  width: 80%;
+  height: 300px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
