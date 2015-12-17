@@ -72,8 +72,13 @@ input{
   background:black;
   text-align: center;
   color: white;
+  font-size: 10px;
 }
 
+.footer p{
+  margin:5px;
+
+}
 .well{
   width:70%;
   margin:0 auto;
