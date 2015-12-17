@@ -92,6 +92,17 @@ input{
 .right{
   display:inline-block;
   position:relative;
+<<<<<<< HEAD
+  width: 40%;
+}
+
+.container{
+  margin: 0 auto;
+  width: 80%;
+  height: 300px;
+  padding-left: 30px;
+  padding-right: 30px;
+=======
   width: 300px;
 }
 
@@ -109,4 +120,5 @@ textarea{
   width:200px;
   height:200px;
   border-radius: 6px;
+>>>>>>> d9f0e1948c34c65cb69ed820bed750b9b92bfe02
 }
