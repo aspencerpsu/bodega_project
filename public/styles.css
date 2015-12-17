@@ -2,7 +2,7 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-ul {
+nav ul {
   list-style: none;
   margin: 0;
   margin-right: 40px;
@@ -10,7 +10,7 @@ ul {
   text-align: right;
 }
 
-li {
+nav li {
   display: inline-block;
   height: 30px;
   width:80px;
@@ -72,8 +72,13 @@ input{
   background:black;
   text-align: center;
   color: white;
+  font-size: 10px;
 }
 
+.footer p{
+  margin:5px;
+
+}
 .well{
   width:70%;
   margin:0 auto;
@@ -82,13 +87,14 @@ input{
   display:inline-block;
   position:relative;
   width: 300px;
+  margin-right:5px;
 }
 
 .right{
   display:inline-block;
   position:relative;
-<<<<<<< HEAD
-  width: 40%;
+  width: 300px;
+  margin-right:5px;
 }
 
 .container{
@@ -97,9 +103,8 @@ input{
   height: 300px;
   padding-left: 30px;
   padding-right: 30px;
-=======
-  width: 300px;
 }
+
 
 .content a{
   text-decoration: none;
@@ -115,5 +120,4 @@ textarea{
   width:200px;
   height:200px;
   border-radius: 6px;
->>>>>>> d9f0e1948c34c65cb69ed820bed750b9b92bfe02
 }
