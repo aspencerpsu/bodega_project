@@ -1,3 +1,7 @@
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+
 ul {
   list-style: none;
   margin: 0;
@@ -21,7 +25,7 @@ li {
   float:left;
 }
 
-a{
+nav a{
   text-decoration: none;
   display: inline:block;
   color:white;
@@ -30,7 +34,7 @@ a{
   padding:25px;
 }
 
-a:hover {
+nav a:hover {
   text-decoration: none;
   display: inline:block;
   color:grey;
@@ -77,11 +81,16 @@ input{
 .left{
   display:inline-block;
   position:relative;
-  width: 40%;
+  width: 300px;
 }
 
 .right{
   display:inline-block;
   position:relative;
-  width: 40%;
+  width: 300px;
+}
+
+.content a{
+  text-decoration: none;
+  color: black;
 }
