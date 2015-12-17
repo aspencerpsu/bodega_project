@@ -6,6 +6,13 @@ $(document).ready(function(){
         function() {
         $(this).stop().animate({ fontSize : '16px' });
         });
-  
-  
+
+  $('.outerlightbox').hide();
+  $('.container img').on('click',function(){
+    $('.outerlightbox').show();
+  })
+  $('.outerlightbox').on('click',function(){
+    $('.outerlightbox').hide();
+  })
+
 })
