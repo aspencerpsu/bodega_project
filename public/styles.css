@@ -33,7 +33,6 @@ nav a{
   color:white;
   position:relative;
   top:25%;
-  padding:25px;
 }
 
 nav a:hover {
@@ -146,6 +145,9 @@ textarea{
   height:275px;
 }
 
+.formback img{
+  border-radius: 16px
+}
 .outerlightbox{
   height:100%;
   width:100%;
@@ -162,6 +164,12 @@ textarea{
   transform: translatey(-50%);
 }
 
+
 .bold{
   font-weight: bolder;
+}
+
+.checkout{
+  position:relative;
+  top:-50px;
 }
