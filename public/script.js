@@ -18,4 +18,10 @@ $('a').hover(function() {
     $('.outerlightbox').hide();
   })
 
+  setInterval(function(){
+    if($('html').width() > 540 )
+      $('nav').find('li').animate({top: '+30px'},0);
+    else
+      $('nav').find('li').animate({top: '+10'},0)
+  },1)
 })
