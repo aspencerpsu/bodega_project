@@ -146,6 +146,9 @@ textarea{
   height:275px;
 }
 
+.formback img{
+  border-radius: 16px
+}
 .outerlightbox{
   height:100%;
   width:100%;
@@ -174,6 +177,10 @@ textarea{
   top:50%;
   transform:translatey(-50%);
   border-radius: 16px;
+}
+
+#imagebox img{
+    border-radius: 16px
 }
 
 .bold{
