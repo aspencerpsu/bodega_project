@@ -149,11 +149,17 @@ textarea{
 .outerlightbox{
   height:100%;
   width:100%;
-  background-color: grey;
+  background-color: rgba(0,0,0,.6);
   position:fixed;
   top:0;
   left:0;
-  opacity: .6
+}
+
+#blankman{
+  position: relative;
+  margin: 0 auto;
+  top: 50%;
+  transform: translatey(-50%);
 }
 
 .bold{

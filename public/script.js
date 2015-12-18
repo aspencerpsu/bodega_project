@@ -9,9 +9,7 @@ $(document).ready(function(){
 
   $('.outerlightbox').hide();
   $('.container img').on('click',function(e){
-  	e.preventDefault();
-  	var $image = $(this).attr("src");
-  	$('.innerLightbox').attr("src", $(this).attr("src"));
+  	$('#blankman').attr("src", $(this).attr("src"));
     $('.outerlightbox').show();
   });
   $('.outerlightbox').on('click',function(){
