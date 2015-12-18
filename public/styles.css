@@ -179,3 +179,8 @@ textarea{
 .bold{
   font-weight: bolder;
 }
+
+.checkout{
+  position:relative;
+  top:-50px;
+}
