@@ -8,11 +8,12 @@ $(document).ready(function(){
         });
 
   $('.outerlightbox').hide();
-  $('.container img').on('click',function(){
+  $('.container img').on('click',function(e){
+  	$('#blankman').attr("src", $(this).attr("src"));
     $('.outerlightbox').show();
-  })
+  });
   $('.outerlightbox').on('click',function(){
     $('.outerlightbox').hide();
-  })
+  });
 
-})
+});
