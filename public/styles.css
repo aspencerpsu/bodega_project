@@ -148,6 +148,7 @@ textarea{
 .formback img{
   border-radius: 16px
 }
+
 .outerlightbox{
   height:100%;
   width:100%;
@@ -162,6 +163,7 @@ textarea{
   margin: 0 auto;
   top: 50%;
   transform: translatey(-50%);
+  width: 350px;
 }
 
 

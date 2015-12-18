@@ -29,6 +29,7 @@ end
 post '/contact' do
   @@username = params[:username]
   @@text = params[:text]
-  puts "Params are #{@username}, #{@text}"
+  puts "Params are #{@@username}, #{@@text}"
+  puts params
   erb :checkout
 end
