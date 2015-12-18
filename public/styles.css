@@ -59,6 +59,7 @@ nav{
   max-width:960px;
   width: 80%;
   text-align: center;
+  min-height:800px;
 }
 
 input{
@@ -90,7 +91,7 @@ input{
   display:inline-block;
   position:relative;
   width: 300px;
-  margin-right:5px;
+  margin-right:10px;
   margin-top:10px;
 }
 
@@ -98,7 +99,7 @@ input{
   display:inline-block;
   position:relative;
   width: 300px;
-  margin-left:5px;
+  margin-left:10px;
   margin-top:10px;
 }
 
@@ -127,6 +128,7 @@ input{
   width:80%;
   border-radius: 6px;
   font-size: 20px;
+  margin-top: 0px;
 }
 
 textarea{
@@ -138,13 +140,10 @@ textarea{
   font-size: 20px;
 }
 
-form{
-  background-image: url('images/formbackground.jpg');
+.formback{
   background-repeat: no-repeat;
-  background-size: 800px;
   border-radius: 10px;
-  background-position: center;
-  height:300px;
+  height:275px;
 }
 
 .outerlightbox{
