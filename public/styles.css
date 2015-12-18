@@ -157,32 +157,6 @@ textarea{
   left:0;
 }
 
-.innerLightbox{
-  height:300px;
-  width:300px;
-  background-color: white;
-  position:relative;
-  margin:0 auto;
-  top:50%;
-  transform:translatey(-50%);
-  border-radius: 16px;
-}
-
-#imagebox{
-  height:400px;
-  width:400px;
-  position:relative;
-  margin:0 auto;
-  top:50%;
-  transform:translatey(-50%);
-  border-radius: 16px;
-}
-
-#imagebox img{
-    border-radius: 16px;
-    height:400px;
-    width:400px;
-}
 
 .bold{
   font-weight: bolder;

@@ -7,16 +7,7 @@ $('a').hover(function() {
       $(this).stop().animate({ fontSize : '16px' });
       });
 
-  $('.outerlightbox').hide();
-  
-  $('.container img').on('click',function(){
-    $('#imagebox').attr('src',$(this).attr('src'));
-    $('.outerlightbox').show();
-    
-  })
-  $('.outerlightbox').on('click',function(){
-    $('.outerlightbox').hide();
-  })
+
 
   setInterval(function(){
     if($('html').width() > 540 )
