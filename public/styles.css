@@ -149,11 +149,31 @@ textarea{
 .outerlightbox{
   height:100%;
   width:100%;
-  background-color: grey;
+  background-color: rgba(0,0,0,.4);
   position:fixed;
   top:0;
   left:0;
-  opacity: .6
+}
+
+.innerLightbox{
+  height:300px;
+  width:300px;
+  background-color: white;
+  position:relative;
+  margin:0 auto;
+  top:50%;
+  transform:translatey(-50%);
+  border-radius: 16px;
+}
+
+#imagebox{
+  height:300px;
+  width:300px;
+  position:relative;
+  margin:0 auto;
+  top:50%;
+  transform:translatey(-50%);
+  border-radius: 16px;
 }
 
 .bold{
