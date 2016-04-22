@@ -1,5 +1,4 @@
 require 'sinatra'
-configure(:development){set: database, "sqlite3:blog.sqlite3"}
 
 get '/'  do 
   @title = "Home"
